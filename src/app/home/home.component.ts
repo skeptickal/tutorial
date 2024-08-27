@@ -10,6 +10,7 @@ import { Products } from '../../types';
   styleUrl: './home.component.scss',
 })
 export class HomeComponent {
+[x: string]: any;
   constructor(private productsService: ProductsService) {}
 
   ngOnInit() {
@@ -20,3 +21,4 @@ export class HomeComponent {
       });
   }
 }
+
